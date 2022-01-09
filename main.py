@@ -41,9 +41,9 @@ class Airplane(Transport):
         return f'Самолету осталось лететь {result}'
 
 
-audi = Car(70, [
+bmw = Car(70, [
     Trip(200, "Калуга-Москва"),
     Trip(50, "В лес")
     ])
 
-print(audi.calc_reachable_distance())
+print(bmw.calc_reachable_distance())
